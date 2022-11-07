@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+}
+.box {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+.pinSection {
+    height: 100%;
+    width: 100%;
+}
+.image {
+    top: -50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-size: contain;
+    height: 750px;
+    width: 500px;
+    background-repeat: no-repeat;
+}
+.scrollmagic-pin-spacer {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.event1 {
+    background-color: #EF9043;
+    display: flex;
+}
+.event1 .image {
+    top: 50%;
+    background-image: url(ressources/img1.jpg);
+}
+.event1 h1{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    font-size: 60px;
+    color: #5A2A27;
+
+}
+
+.event2 {
+    background-color: #828685;
+}
+.event2 .image {
+    background-image: url(ressources/img2.jpg);
+   
+}
+
+.event3 {
+    background-color: #AA6225;
+}
+.event3 .image {
+    background-image: url(ressources/img3.jpg);
+}
+
+.event4 {
+    background-color: #739F8F;
+}
+.event4 .image {
+    background-image: url(ressources/img4.jpg);
+}
